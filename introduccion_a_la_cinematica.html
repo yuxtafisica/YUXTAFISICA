@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Introduccion a la cinematica</title>
+</head>
+<body>
+    <h1> Introducción a la cinemática </h1>
+    <hr>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Moglfm0415_bal%C3%ADstica.jpg/280px-Moglfm0415_bal%C3%ADstica.jpg" width="400">
+    <p> Definamos conceptos muy sencillos de cinemática y veremos como todos los resultados tienen sentido. </p>
+    <p> ¿Qué es un sistema de referencia? Definamos un espacio afín compuesto por:<br> - Un conjunto no vacío cuyos elementos llamaremos puntos.<br> - Un espacio vectorial finitamente generado sobre el cuerpo de los reales cuyos elementos llamaremos vectores.<br> - Una aplicación que, resumidamente, asocia a dos elementos del primer conjunto un elemento del segundo conjunto. </p>
+    <p> En este espacio afín definimos una dupla formada por: <br>- Un punto al que llamamos origen 'O'<br> - Una base del espacio vectorial <br> Esta dupla la llamamos sistema de referencia. </p>
+    <p> Hay varios tipos de sistema de referencia: rectangular, polar e intrínseco. Dependerá de cómo demos las coordenadas de un punto arbitrario del espacio afín. Ello dependerá del tipo de base que escojamos.<br> Una base puede estar fija en el origen, o puede moverse con un cuerpo, por ejemplo.<br></p>
+    <p> Así, trabajando con un sistema de referencia rectangular, definimos la posición 'X' como el vector OX, cuyas componentes nos dará las coordenadas de X. Cabe recalcar que X es un vector.</p>
+    <br> <p> El espacio físico está formado por 3 dimensiones. Pero si nos quedaramos en ellas, las cosas serían inmóviles. Existe una cuarta dimensión llamada 'tiempo' por el que suceden cambios en el universo, pues nos estamos desplazando en ella como lo hacemos en las dimensiones físicas. Así, la posición de un objeto puede no ser permanente. Este cambio lo denominamos velocidad. La velocidad de un cuerpo es la variación de la posición respecto al tiempo.</p>
+
+    <img src="C:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 173518.png" width="200">
+
+    <br> <p>Si ahora integramos los dos términos, obtenemos una relación matemática entre la velocidad y la posición. </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 225333.png">
+    <br> <p> Terminamos de integrar y obtenemos la relación vectorial entre las variables. </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 225444.png" width="200">
+    <br> <p>Aquí tenemos la famosa fórmula de la cinemática en el caso de n dimensiones. Si resulta que trabajamos con movimientos unidimensionales, podremos quitar los símbolos vectoriales, pero en ningún otro caso podremos hacerlo.</p>
+    <br> <p>De igual manera, la variación de la posición puede variar en el tiempo. Este cambio se llama aceleración: </p>
+    <img src="C:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 174754.png" width="250">
+    <p> Ahora podemos sacar la primera relación entre la velocidad y la aceleración integrando. </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 175122.png" width="250">
+    <p>Si terminamos de integrar obtenemos una de las dos ecuaciones que buscamos en este movimiento acelerado.</p>
+    <img src="C:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 175000.png" width="250">
+    <p>Con esta relación buscaremos la ecuación que pone a la posición en función de la velocidad y la aceleración. Si recordamos la definición de velocidad:</p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 175631.png"width="250">
+    <p>Ahora integramos de la siguiente manera: </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 175902.png"width="400">
+    <p>Obtenemos la famosa ecuación del movimiento acelerado. Es importante recalcar que este movimiento no tiene por que ser rectilíneo.</p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 180021.png"width="300">
+    <p> Por último, obtendremos una fórmula muy útil en la práctica. Vamos a despejar el tiempo de la ecuacion que relaciona la velocidad con la aceleracion.</p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 180635.png" width="200">
+    <p> Ahora la sustituimos en la ecuación de la posición. </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 180847.png" width="359">
+    <p>Después de un cálculo muy aburrido, llegamos a la ecuación "sin tiempo":</p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 181045.png" width="350">
+    <p> Próximamente veremos otro tipo de sistemas coordenados y sus aplicaciones. Lo importante de esta introducción es hacer énfasis en el concepto diferencial de "cambio temporal" al haber introducido una cuarta dimension por la que ocurren transformaciones.</p>
+    <p> Ah, y si os estáis preguntando si existe el cambio de la aceleración, obviamente sí, en física todo puede existir... Se llama "sobreaceleración s" y tiene mucho que ver con ecuaciones diferenciales. No se oye tanto sobre ella porque no queda guay decir "la variación de la variación de la variación de la posición". Pero si os estáis preguntando cómo se vería su fórmula, sería la siguiente: </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 182601.png" width="300">
+    <p> Podemos ver una tendencia clara: los factores 1, 1/2 y 1/6 son los primeros tres términos de la sucesión 1/n!. Además, el exponente del tiempo sube un grado con cada nuevo elemento diferencial que añadimos.</p>
+    <p> Se nos podría ocurrir definir la variación de la sobreaceleración y ver que pasa, e incluso seguir definiendo tasas de cambio infinitamente. Según lo que hemos visto sobre el resultado anterior, la posición se puede escribir de esta manera: </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 183443.png" width="300">
+    <p> Efectivamente, la posición cobra forma de serie de Taylor. Esto es porque le estamos dando forma polinómica a una trayectoria completamente arbitraria, como sucede cuando escribimos una función en forma de serie de Taylor. </p>
+
+
+</body>
+</html>

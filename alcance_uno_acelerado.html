@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Alcance Unidimensional ambos con aceleración</title>
+</head>
+<body>
+    <h1> Alcance y encuentro unidimensional, un cuerpo con aceleración </h1>
+    <hr>
+    <p> Pasemos a estudiar el caso de alcance para únicamente un cuerpo acelerado. Para el caso de encuentro, haremos una pequeña corrección al final para obtener resultados.</p>
+    <p>Supongamos un espacio unidimensional con dos cuerpos con distinta posición (uno delante del otro). Suponemos que el que está adelante es el cuerpo 2, y el que está atrás es el cuerpo 1. Orientamos el espacio tal que el sentido "hacia la derecha" es positivo. Situamos el sistema de referencia en un punto arbitrario. </p>
+    <p> Las ecuaciones de ambos cuerpos nos la proporciona su respectiva cinemática, dependiendo de si está acelerando. Suponemos que acelera el cuerpo 1, y que no lo hace el cuerpo 2.</p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 210010.png"> <br>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 210051.png">
+    <P> Podemos apreciar que es posible desplazar el sistema de referencia de tal forma que el origen quede sobre la posición inicial de, por ejemplo, el cuerpo 2 (ATENCIÓN: la posición inicial de 1 será negativa por esto mismo, pues está detrás de 2). Así, x_{0_{2}} es 0. </P>
+
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 205453.png"> <br>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 205428.png">
+
+    <P> Nos queda un sistema de ecuaciones de dos incógnitas. Despejaremos la t de la segunda ecuación.</P>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 222936.png">
+    <p>A continuación se sustituye este tiempo en la primera ecuación.</p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 223018.png">
+    <p> Se calculará ahora el tiempo de alcance. Sea x la posición tal que x_{1}=x_{2}. Sustituyendo con esta condición, se obtiene: </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 223057.png">
+    <p> Reagrúpense los términos para preparar la ecuación de segundo grado.</p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 223159.png">
+    <p> Resolviendo, mediante la fórmula de Bhaskara, se obtiene finalmente la siguiente expresión para la distancia de alcance.</p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 223310.png">
+    <p> Recordando la relación obtenida para t, finalmente obtenemos la siguiente ecuación para el tiempo de alcance.</p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 223458.png">
+    <p> Se pueden notar varias cosas. La primera es que si desde un inicio los dos cuerpos están en la misma posición, es decir, si sustituimos x_{0}=0, obtenemos: </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 224022.png">
+    <p>Este resultado tiene sentido ya que, si desde un principio están juntos, el tiempo de alcance es 0.</p>
+    <p> Por otro lado, si ambos cuerpos comienzan con la misma velocidad, es decir, si v_{1}=v_{2}, obtenemos: </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 224306.png">
+    <p> Recuérdese que x_{0} es una posición negativa según las condiciones descritas en un inicio. A continuación se representa esta misma ecuación, con el tiempo de alcance en función de la aceleración.</p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 224655.png">
+    <p> Podemos observar cómo, cuanto menor sea la aceleración del objeto "persecutor" (eje horizontal), mayor será el tiempo de alcance, como era de esperar.</p>
+    <p> Resolver este tipo de problemas equivale a resolver un sistema de ecuaciones como el siguiente gráficamente: </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 224951.png">
+
+    <hr>
+    <P>Para el caso de encuentros, basta con cambiar el signo de la respectiva velocidad y aceleración. Según la orientación del espacio que habíamos definido, un vector "apuntando a la derecha" tenía módulo negativo, mientras que si "apuntaba a la izquierda", era positivo. Así que, para el encuentro, basta con definir las direcciones de cada variación. Definamos que la velocidad y aceleración del cuerpo 1 se mueven a la derecha, mientras que las del cuerpo 2 van a la izquierda. El tiempo de alcance será el siguiente.</P>
+
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 230041.png">
+<P> Únicamente se ha cambiado el signo de la velocidad del cuerpo 2. Se anima al lector a considerar el caso que se le ocurra atendiendo al criterio de signos adecuado.</P>
+

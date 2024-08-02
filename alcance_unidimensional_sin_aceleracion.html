@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Alcance Unidimensional sin aceleración</title>
+</head>
+<body>
+    <h1> Alcance y encuentro unidimensional sin aceleración </h1>
+    <hr>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREScdRlVqHj1Naa04a1kkoRejz-JQenn5HRQ&s">
+    <p> Empecemos viendo el caso más simple de alcance. Para el estudio de encuentros, nos sirve exactamente el mismo desarrollo, y simplemente al final cambiaremos un detalle. Imaginemos dos cuerpos unidimensionales cuyas posiciones son distintas, es decir, uno está delante de otro. Suponemos que el cuerpo 2 está detrás del cuerpo 1. </p><br>
+    <p> Las ecuaciones de cada uno de los cuerpos serán las que nos da la cinemática. Como trabajamos en un mundo unidimensional, las magnitudes serán escalares. Saquemos las ecuaciones de la posición de ambos cuerpos con un sistema de referencia arbitrario en reposo orientado positivamente hacia la derecha: </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 184645.png" width="200">
+    <p> Es fácil darse cuenta de que podemos hacer una triquiñuela con el sistema de referencia. Vamos a colocarlo, por ejemplo, en la posición inicial de 2, y así podemos olvidarnos de un término.</p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 184920.png"width="200">
+    <p> Tenemos un sistema de ecuaciones de dos incógnitas fácil. Despejamos el tiempo de la segunda ecuación: </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 185042.png"width="150">
+    <p> Y ahora sustituimos el tiempo en la primera ecuacion: </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 185300.png"width="200">
+    <p> Reacomodamos los términos para obtener la posición del segundo en función de la del primero. </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 185418.png"width="200">
+    <p> El lector podría preguntarse lo que sucedería ahora si las posiciones 1 y 2 coinciden, es decir, el alcance se ha realizado. Hacemos x_{2}=x_{1}=x_{a}, que es la posicion de ALCANCE, y desarrollamos lo de la derecha: </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 185556.png"width="200">
+    <p> Despejamos ahora la posición de alcance para obtener el siguiente resultado. </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 190754.png"width="200">
+    <p>Aquí podemos observar cualitativamente varias cosas. La primera es que la posición de alcance es una función racional cuyo dominio es el intérvalo real menos el 0. Dicha fracción valdrá 0 cuando las velocidades de 1 y 2 coincidan. Es decir, si tenemos dos cuerpos separados, y los ponemos a perseguirse a la misma velocidad, jamás se van a encontrar.</p><br>
+    <p>Otro resultado tiene que ver con la posición inicial del cuerpo 1. Hemos dicho al principio que la inicial del cuerpo 2 era 0. Si resulta que la del 1 también es 0, la posición de alcance se hace 0, pues están exactamente en el mismo punto.</p><br>
+    <p>Vamos a calcular el tiempo que tardan en alcancarse los dos cuerpos. Teniamos que t= x_{2} / v_{2} . Suponiendo que la posición de 2 es la de alcance, pues ha alcanzado al 1, y sustituyendo, llegamos a: </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 190814.png"width="200">
+    <p> Observamos que cuando ambas velocidades son muy parecidas, el tiempo tiende a infinito. Esto tiene sentido. También vemos que depende proporcionalmente de la posición que inicialmente separan ambos cuerpos, que es la posición inicial de 1. Así, si duplicamos la distancia inicial, duplicamos el tiempo.</p>
+    <p> Grafiquemos el tiempo de alcance en función de la velocidad del segundo.</p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 192707.png">
+    <p> Se ha considerado v_{1}=2m/s. La velocidad del cuerpo al que persigue actúa de asíntota. Si la velocidad del cuerpo 2 (eje horizontal) se acerca, el tiempo tiende a infinito.</p>
+    <p> Este ejercicio se resume en la resolución de un sistema de ecuaciones de dos incógnitas. Gráficamente: </p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 193022.png">
+    <hr>
+    <p> Sobre el fenómeno de "encuentro", podemos advertir que se trata sin duda de exactamente el mismo problema. Hemos trabajado con una base orientada positivamente hacia la derecha. Para el ejemplo de encuentro, supongamos que el cuerpo de adelante se mueve hacia la izquierda (velocidad negativa). Ahora el signo de v_{1} ha de cambiar en las fórmulas. Para el tiempo de alcance:</p>
+     <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 193555.png">
+    <p> Si lo graficamos en función de v_{2}, vemos que ha desaparecido la asíntota (al menos en el cuadrante que nos interesa).</p>
+    <img src="c:\Users\maria\Pictures\Screenshots\Captura de pantalla 2024-08-01 193648.png">
+
+    
+</body>
+</html>
